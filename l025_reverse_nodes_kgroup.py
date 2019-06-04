@@ -31,8 +31,6 @@ def forword(head, k):
 
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
-        if not head:
-            return head
         list_len = get_list_len(head)
         part = list_len // k
         add_head = ListNode(0)
@@ -57,7 +55,7 @@ if __name__ == '__main__':
     node1.next.next.next = ListNode(4)
     node1.next.next.next.next = ListNode(5)
     s = Solution()
-    result = s.reverseKGroup(node1, 3)
+    result = s.reverseKGroup(None, 1)
     while result:
         print(result.val)
         result = result.next
