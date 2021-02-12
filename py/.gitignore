@@ -1,0 +1,7 @@
+.idea
+*.exe
+*.pyc
+*.log
+.cache
+*.lock
+*.out
