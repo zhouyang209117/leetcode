@@ -1,6 +1,6 @@
 # coding: utf-8
 import unittest
-from l030_2 import Solution
+from py.l030_2 import Solution
 
 
 class TestReverseInteger(unittest.TestCase):

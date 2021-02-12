@@ -1,6 +1,6 @@
 # coding: utf-8
 import unittest
-from l006_zigzag import get_coord
+from py.l006_zigzag import get_coord
 
 
 class TestCommonPrefix(unittest.TestCase):

@@ -1,6 +1,6 @@
 # coding: utf-8
 import unittest
-from l036_valid_sudoku import same_area
+from py.l036_valid_sudoku import same_area
 
 
 class TestArea(unittest.TestCase):
